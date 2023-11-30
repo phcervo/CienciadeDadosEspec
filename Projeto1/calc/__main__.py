@@ -16,11 +16,18 @@ def escolhedora(dados):
     return resultado
  
 def main():
-    dados = es.leitora()
-    resultado = escolhedora (dados)
-    es.escritora(resultado)
     
-
+    loop=1
+    
+    while loop != 0:
+        print(""" A calculadora iniciou . """)
+        dados = es.leitora()
+        resultado = escolhedora (dados)
+        es.escritora(resultado)
+        loop = int(input ("Para encerrar a calculadora, digite 0. Se valor for diferente de 0, a calculadora continuará. \n"))
+    
+    print("Calculadora encerrada."
+          
 # Execução
 
 if __name__ == "__main__":
