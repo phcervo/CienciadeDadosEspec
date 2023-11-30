@@ -5,7 +5,7 @@ def leitora_numeros():
     i=0
     numeros=[]
     while i<2:
-        numeros.append(float(input(f"Digite o {i+1}º número que deseja operar")))
+        numeros.append(float(input(f"Digite o {i+1}º número que deseja operar: ")))
         i+=1
     return numeros
 
@@ -14,7 +14,7 @@ def leitora_numeros():
 def leitora_operacao():
     """ Le qual a operação desejada, dentro das 4 permitidas """
 
-    operacao = input("Digite a operação que deseja realizar. ( + , - , * , / )")
+    operacao = input("Digite a operação que deseja realizar : ( + , - , * , / )")
     if operacao == '+':
         operador = 'soma'
     elif operacao == '-':
