@@ -10,14 +10,14 @@ def leitor_pontos() -> list:
     resposta=1
     print("Digite as coordenadas X em ordem crescente.")
     
-    while resposta!=0:
+    while resposta!='0':
         cordx=float(input(f"Digite o valor da coordenada x do {n}ª ponto: "))
         cordy=float(input(f"Digite o valor da coordenada y do {n}ª ponto: "))
         
         lista_x.append(cordx)
         lista_y.append(cordy)
         
-        resposta=float(input("Deseja adicionar um novo ponto? (Digite 0 para Não)"))
+        resposta=input("Deseja adicionar um novo ponto? (Digite 0 para Não)")
         
         n+=1
         lista_x.sort()
