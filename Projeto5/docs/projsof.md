@@ -18,8 +18,8 @@ Haverá os seguintes dois módulos
 
 Provê as seguintes funções
 
-1. leitor _pagina(nome_pagina -> str
-2. impressora(nome_pagina) -> Nome
+1. leitor _pagina(nome_pagina -> str)
+2. impressora(nome_pagina) -> None
 
 
 ### Módulo getter

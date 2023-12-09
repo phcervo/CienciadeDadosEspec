@@ -1,23 +1,19 @@
 # Especificação de requisitos de Software
 
+
+
 ## Introdução
-Baixar a página de forma automatizada.
-aplicativo de coleta de dados na Web
-Entendendo o problema: elicitação e análise de requisitos
-Projeto: arquitetura dos módulos, desenho das estruturas de dados e dos algoritmo das funções
-Codificação e testes da coleta com com Python Requests
+Este documento descreve os requisitos para um aplicativo de coleta automatizada de dados da web. O processo envolve a compreensão do problema, incluindo a elicitação e análise de requisitos, o design da arquitetura de módulos, a definição das estruturas de dados e algoritmos das funções, além da codificação e teste da coleta utilizando o Python Requests.
 
-
-## Requisitos funcionais
-
+## Requisitos Funcionais
 ### Requisito 1
-permitir que o usuário entre com o nome de uma página web.
+O sistema deve permitir que o usuário insira o nome de uma página da web.
 
-### Requisito 2 
-baixar a página da web requerida pelo usuário.
+### Requisito 2
+O sistema deve ser capaz de baixar a página da web especificada pelo usuário.
 
 ### Requisito 3
-abrir a página para usuário.
+O sistema deve ter a capacidade de abrir a página para o usuário.
 
-## Requisitos não funcionais
-Restrições que o software precisa atender.
+### Requisitos Não Funcionais
+Estes são as restrições que o software deve atender.
